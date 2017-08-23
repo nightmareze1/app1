@@ -5,8 +5,6 @@ deployment:
       - docker login -e "e_ariel@hotmail.es" -u "nightmareze1" -p "Eze123456!"
       - docker build -t "nightmareze1/alpine:$CIRCLE_BUILD_NUM" .
       - docker push "nightmareze1/alpine:$CIRCLE_BUILD_NUM"
-      - sed -i'' -e "s;%BUILD_NUM%;$CIRCLE_BUILD_NUM;g" ./deploy/Dockerrun.aws.json
-
 
 test:
   override:   
