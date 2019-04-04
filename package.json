@@ -6,10 +6,10 @@
   "main": "app.js",
   "author": "Luke Angel",
   "dependencies": {
-    "express": "3.2.4",
+    "express": "4.16.4",
     "hbs": "^4.0.1",
     "jade": "1.11.0",
-    "mocha": "1.20.1",
-    "supertest": "1.1.0"
+    "mocha": "6.0.2",
+    "supertest": "4.0.2"
   }
 }
